@@ -5,4 +5,9 @@ Binary classification model to predict outcome of UFC fights. Uses Scrapy to get
 
 ## Files
 1. Fighter and event data stored in database/ufc_data.db
-2. Scraping code stored in 1.0-scrape_bout_data-v2.0.ipynb and 1.1-scrape_fighter_data-v2.0.ipynb
+2. Methods are stored as functions in the methods folder including:
+  1. Scraping code stored in scrape_bout_data and scrape_fighter_data
+  2. Data wrangling and feature creation in clean_bout_data, clean_fighter_data and create_training_df
+  3. Model creation with pycaret in create_training_df_model
+  4. Test file creation (tbd)
+3. Master_file will be used to call all functions in pipeline (tbd)  
